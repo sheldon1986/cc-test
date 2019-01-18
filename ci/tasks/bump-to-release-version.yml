@@ -8,7 +8,7 @@ image_resource:
 inputs:
   - name: version
   - name: repo
-  - name: repo-release
+  - name: repo-stg
   - name: m2
 outputs:
   - name: out
