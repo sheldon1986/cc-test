@@ -15,4 +15,4 @@ outputs:
 run:
   path: /bin/bash
   args:
-    - repo-release/ci/tasks/bump-to-release-version.sh
+    - repo-stg/ci/tasks/bump-to-release-version.sh
