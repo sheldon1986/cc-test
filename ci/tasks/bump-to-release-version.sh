@@ -10,6 +10,5 @@ echo "Bump to ($VERSION)"
 ./mvnw versions:set -DnewVersion=${VERSION} -Dmaven.repo.local=../m2/rootfs/opt/m2
 git config --global user.email "${GIT_EMAIL}"
 git config --global user.name "${GIT_NAME}"
-git pull origin staging
 git add pom.xml
 git commit -m "${MESSAGE}"
